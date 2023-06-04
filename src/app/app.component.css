@@ -1,0 +1,53 @@
+.header {
+    text-align: center;
+    color: #914521;
+    margin-bottom: 2rem;
+}
+
+.img-div {
+    margin-block: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px #2c0f02;
+}
+
+.buttons {
+    margin-block: 2rem;
+    width: 100%;
+    max-width: 200px;
+    margin-inline: auto;
+}
+
+.result {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-div {
+    width: 100%;
+    max-width: 600px;
+    align-self: center;
+    transition: all .3s ease-in-out;
+}
+
+.img-div:hover {
+    scale: 1.05;
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+    display: block;
+}
+
+
+
+@media screen and (min-width: 660px) {
+    .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 1rem;
+    }
+}

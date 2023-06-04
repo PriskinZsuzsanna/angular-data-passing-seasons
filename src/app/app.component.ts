@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-data-passing';
+
+  seasons:Array<string> = ["winter", "spring", "summer", "autumn"];
+  selected: string = "seasons"
 }
