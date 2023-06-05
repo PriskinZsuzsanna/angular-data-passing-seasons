@@ -4,10 +4,12 @@
     <h1>Choose your season</h1>
   </div>
 
-  <div class="buttons" >
-    <app-button 
+  <div class="buttons">
+    <app-button
     (choosen)="selected = season"
-    *ngFor="let season of seasons" [season]="season"></app-button>
+    *ngFor="let season of seasons"
+    [season]="season">
+    </app-button>
   </div>
 
   <div class="result">

@@ -10,7 +10,6 @@ export class ButtonComponent {
   @Output() choosen: EventEmitter<void> = new EventEmitter<void> ()
 
   choose (){
-    //console.log(e.target.value)
     this.choosen.emit()
   }
 }
